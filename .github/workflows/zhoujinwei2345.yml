@@ -1,9 +1,11 @@
 name: zhoujinwei2345
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 0/6 * * *'
-jobs:  # 20218
+    - cron: '58 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -11,9 +13,11 @@ jobs:  # 20218
       - uses: actions/checkout@v4
       - name: zhoujinwei2345
         env:
-          irr5272: ${{ secrets.irr5272 }}
+          lxswq22: ${{ secrets.lxswq22 }}
         run: |
-          echo $irr5272 | jq -r .cx99055 | /bin/bash
-          echo $paky9 | jq -r .gyg2 | /bin/bash
-          echo $za1 | jq -r .ydpyv955 | /bin/bash
+          echo $lxswq22 | jq -r .rxn355 | /bin/bash
+          echo $fyk8 | jq -r .waht10 | /bin/bash
+          echo $uu5390 | jq -r .ovknm3272 | /bin/bash
+          echo $t63539 | jq -r .hx24695 | /bin/bash
+          echo $yjy9111 | jq -r .scdnz639 | /bin/bash
 
